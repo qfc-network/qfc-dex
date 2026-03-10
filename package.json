@@ -1,0 +1,18 @@
+{
+  "name": "qfc-dex",
+  "version": "0.1.0",
+  "description": "QFC DEX — AMM decentralized exchange on QFC Network",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network qfc_testnet",
+    "seed": "hardhat run scripts/seed.ts --network qfc_testnet",
+    "node": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "hardhat": "^2.22.0",
+    "dotenv": "^16.4.0"
+  }
+}
