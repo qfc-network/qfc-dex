@@ -12,7 +12,7 @@ const config: HardhatUserConfig = {
   solidity: {
     version: "0.8.28",
     settings: {
-      evmVersion: "cancun",
+      evmVersion: "paris",
       optimizer: {
         enabled: true,
         runs: 200,
@@ -31,6 +31,7 @@ const config: HardhatUserConfig = {
       url: process.env.QFC_TESTNET_RPC || "https://rpc.testnet.qfc.network",
       chainId: 9000,
       accounts: [PRIVATE_KEY],
+      gasPrice: 1000000000, // 1 gwei — required for contract creation on QFC
     },
     qfc_mainnet: {
       url: process.env.QFC_MAINNET_RPC || "https://rpc.qfc.network",
