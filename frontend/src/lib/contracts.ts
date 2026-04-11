@@ -9,9 +9,9 @@ export const QFC_CHAIN = {
 
 // ── Deployed addresses (update after deploy) ──
 export const ADDRESSES = {
-  factory: "0x714B4F54bF0d08c5598439FbA1944Ff759A51E2E",
-  router: "0x64Fe09ce5104854c804bc0D56bA6366A2F000672",
-  wqfc: "0x60cC5DbC63Db58711e13022952cadb0f52da6069",
+  factory: "0x22D2f9C14f97FeD34e18428e7F23d9d8482ba49f",
+  router: "0xB8A7491465194ff08cA94640ED4D68e9e5a9C494",
+  wqfc: "0xfEe43b287d9CB4985e4752986aa8d42674587DAb",
 };
 
 export const TOKENS: Token[] = [
